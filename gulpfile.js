@@ -146,13 +146,11 @@ gulp.task('browser-sync', function () {
     browserSync.init({
         open: 'external', // false,
         //host: '',
-        proxy: 'webaula.localhost.com',
+        //proxy: 'webaula.localhost.com',
         port: 3000,
-        /*
         server: {
             baseDir: "./"
         }
-        */
     });
 });
 
