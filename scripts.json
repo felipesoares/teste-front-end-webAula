@@ -1,0 +1,14 @@
+{
+    "assets": [
+        "js/sb-admin-2.js",
+        "js/script.js"
+    ],
+    "libs": [
+        "jquery/dist/jquery.min.js",
+        "bootstrap/dist/js/bootstrap.min.js",
+        "metisMenu/dist/metisMenu.min.js",
+        "datatables.net/js/jquery.dataTables.min.js",
+        "datatables.net-bs/js/dataTables.bootstrap.min.js",
+        "datatables.net-responsive/js/dataTables.responsive.min.js"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "teste-front-end-webaula",
+  "version": "1.0.0",
+  "description": "Teste Front End - webAula",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/felipesoares/teste-front-end-webAula.git"
+  },
+  "author": "Felipe Soares <felipesoaresdemg@hotmail.com>",
+  "license": "",
+  "bugs": {
+    "url": "https://gitlab.com/felipesoares/teste-front-end-webAula/issues"
+  },
+  "homepage": "https://gitlab.com/felipesoares/teste-front-end-webAula#README",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "clear-require": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-cssimport": "^5.0.0",
+    "gulp-import-css": "^0.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "path": "^0.12.7",
+    "run-sequence": "^1.2.2"
+  }
+}

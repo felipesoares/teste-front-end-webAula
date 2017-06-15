@@ -1,0 +1,189 @@
+/* ESTILO RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: inside none;
+    vertical-align: baseline;
+    border: 0 none;
+}
+
+
+/* ESTILO PARA BOX SIZING */
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* HACKING PARA CLEARFIX */
+
+.cf {
+    @extend %clearfix;
+}
+
+
+/* HACKING PARA REMOCAO DA BORDA PADRAO DO CHROME NOS INPUTS */
+
+:focus {
+    outline: 0;
+}
+
+
+/* ESTILO PARA TAGS HTML */
+
+body {
+    background-color: #fff;
+    word-wrap: break-word;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+figure {
+    margin: 0;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    td {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ESTILO PARA CLASSES GENERICAS */
+
+.slick-slider {
+    display: block !important;
+}
+
+.cboth {
+    clear: both;
+}
+
+.h,
+span {
+    max-width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.table {
+    display: table;
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+    position: absolute;
+}
+
+.vertical {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/* MEDIA QUERIES */
+
+@media #{$ultrabook} {}
+
+@media #{$maxTablet} {
+    .cboth {
+        clear: none;
+    }
+    .cboth-tablet {
+        clear: both;
+    }
+}
+
+@media #{$tablet} {
+    body {
+        font-size: 16px;
+    }
+    .tablet-grid-parent {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tablet-not-grid-parent {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tablet-grid-parent-only-left {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    .tablet-grid-parent-only-right {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+}
+
+@media #{$mobile} {
+    body {
+        font-size: 16px;
+        -webkit-text-size-adjust: 100%;
+    }
+    .cboth-tablet {
+        clear: none;
+    }
+    .campo,
+    .textarea,
+    select {
+        font-size: 16px !important;
+    }
+    .mobile-grid-parent {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .mobile-not-grid-parent {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .mobile-grid-parent-only-left {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    .mobile-grid-parent-only-right {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,16 @@
+/* RESOLUCOES DE TELAS */
+
+$full: "screen and (min-width: 1920px)";
+$desktop: "screen and (min-width: 1025px) and (max-width: 1919px)";
+$ultrabook: "screen and (min-width: 1025px) and (max-height: 899px)";
+
+$maxTablet: "screen and (max-width: 1024px)";
+$tablet: "screen and (min-width: 768px) and (max-width: 1024px)";
+$minTablet: "screen and (min-width: 768px)";
+
+$mobile: "screen and (max-width: 767px)";
+
+/* FONTS */
+
+$regular: "Raleway-Regular";
+$bold: "Raleway-Bold";

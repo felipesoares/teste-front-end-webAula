@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,4BAA4B;AAG5B,mBAAmB;AAEX,iEAAyD;AAEjE,oBAAoB;AAEZ,0EAAkE;AAE1E,eAAe;AAEP,sEAA8D;AAEtE,gBAAgB;AAER,wFAAgF;AAExF,2BAA2B;AAEnB,mGAA2F;AAEnG,kBAAkB;AAEV,2EAAmE",
+"sources": ["../sass/bibliotecas.scss"],
+"names": [],
+"file": "bibliotecas.css"
+}

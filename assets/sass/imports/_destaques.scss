@@ -1,0 +1,134 @@
+$wSidebar: 202px;
+$hHeader: 90px;
+$navBgColor: #2e7bae;
+body {
+    @include font-px($regular, 14, #555);
+}
+
+.navbar-default {
+    background: $navBgColor;
+    border: 0 none;
+    @media #{$minTablet} {
+        height: $hHeader;
+    }
+    .navbar-brand {
+        display: none;
+        @media #{$minTablet} {
+            display: block;
+            width: $wSidebar;
+            padding: 0;
+            height: $hHeader;
+            line-height: $hHeader;
+            &,
+            &:hover {
+                background: $navBgColor;
+                @include font-px($bold, 16, #fff);
+            }
+        }
+    }
+}
+
+.logo-webAula {
+    display: inline-block;
+    margin: 16.5px 0;
+}
+
+.navbar-header {
+    width: 100%;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.sidebar {
+    @media #{$minTablet} {
+        margin-top: $hHeader;
+    }
+    height: auto;
+    background-color: transparent;
+    @media #{$minTablet} {
+        width: $wSidebar;
+    }
+    .fa.arrow:before {
+        margin: 4px 0;
+        display: block;
+        content: "\f0d9";
+    }
+    .active>a>.fa.arrow:before {
+        content: "\f0d7";
+    }
+    ul {
+        li {
+            border: 0 none;
+            a {
+                &.active {
+                    background-color: #5592bb;
+                }
+            }
+            ul {
+                background-color: #25628b;
+            }
+        }
+    }
+    .nav-second-level li a {
+        &,
+        &:hover {
+            padding-left: 15px;
+            padding-right: 40px;
+            @include font-px($bold, 12, #fff);
+        }
+    }
+}
+
+.nav>li>a {
+    &:focus {
+        background-color: transparent;
+    }
+    &:hover {
+        background-color: #5592bb;
+    }
+    &,
+    &:hover {
+        @include font-px($regular, 14, #fff);
+    }
+}
+
+#wrapper {
+    background: $navBgColor;
+}
+
+#page-wrapper {
+    @media #{$minTablet} {
+        margin: 0 0 0 $wSidebar;
+    }
+}
+
+.page-header {
+    border: 0 none;
+    .fa {
+        color: #2e7bae;
+    }
+}
+
+#dataTables {
+    th {
+        @include font-px($bold, 16, #555);
+        text-align: center;
+        &:first-child {
+            text-align: left;
+        }
+    }
+    a {
+        color: #2e7bae;
+        text-decoration: underline;
+    }
+}
+
+#modalDescricaoCurso {
+    .modal-title {
+        @include font-px($bold, 18, #333);
+    }
+    .description {
+        @include font-px($regular, 14, #333);
+        line-height: 24px;
+    }
+}

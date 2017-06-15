@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lista de cursos em destaque - webAula">
+    <meta name="author" content="webAula">
+
+    <title>Lista de cursos em destaque - webAula</title>
+
+    <!-- Bibliotecas CSS -->
+    <link rel="stylesheet" type="text/css" href="dist/css/bibliotecas.min.css">
+
+    <!-- Custom CSS -->
+    <!--
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    -->
+    <link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
+    
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" type="text/css" href="dist/css/ie9.min.css">
+    <![endif]-->
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" type="text/css" href="dist/css/ie8.min.css">
+    <![endif]-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Alternar de navegação</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand">MENU</span>
+                <a href="/" title="Página Inicial" class="logo-webAula">
+                    <img src="dist/img/logo-webAula.png" alt="Logo webAula">
+                </a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li>
+                            <a href="/">Cursos em Destaque</a>
+                        </li>
+                        <li>
+                            <a href="#">Central de Mensagens</a>
+                        </li>
+                        <li>
+                            <a href="#">Central de Ajuda<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Tutorial</a>
+                                </li>
+                                <li>
+                                    <a href="#">Fale Conosco</a>
+                                </li>
+                                <li>
+                                    <a href="#">Teste de Compatibilidade</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#">Configurações</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="page-header"><i class="fa fa-list-alt" aria-hidden="true"></i> Lista de cursos em destaque</h3>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <table width="100%" class="table table-hover" id="dataTables">
+                        <thead>
+                            <tr>
+                                <th>Empresa</th>
+                                <th>Nome do Curso</th>
+                                <th>Quantidade de Alunos</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="">
+                                <td colspan="4" align="center">Carregando dados...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- /.table-responsive -->
+
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalDescricaoCurso" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Descrição do Curso</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="description"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bibliotecas JS -->
+    <script type="text/javascript" src="dist/js/bibliotecas.min.js"></script>
+
+    <!-- Custom JS -->
+    <!--
+    <script type="text/javascript" src="assets/js/sb-admin-2.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    -->
+    <script type="text/javascript" src="dist/js/script.min.js"></script>
+
+</body>
+
+</html>

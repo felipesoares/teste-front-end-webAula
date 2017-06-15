@@ -1,0 +1,29 @@
+{
+  "name": "teste-front-end-webaula",
+  "authors": [
+    "Felipe Soares <felipesoaresdemg@hotmail.com>"
+  ],
+  "description": "Teste Front End - webAula",
+  "main": "index.js",
+  "license": "",
+  "homepage": "https://gitlab.com/felipesoares/teste-front-end-webAula#README",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^7.0.0",
+    "jquery": "2.2.4",
+    "font-awesome": "fontawesome#^4.7.0",
+    "bootstrap": "^3.3.7",
+    "metisMenu": "metismenu#^2.7.0",
+    "datatables.net": "^1.10.15",
+    "datatables.net-bs": "^2.1.1",
+    "datatables.net-responsive": "^2.1.1",
+    "datatables.net-responsive-bs": "^2.1.1"
+  }
+}

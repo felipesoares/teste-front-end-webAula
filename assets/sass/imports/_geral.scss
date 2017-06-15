@@ -1,0 +1,47 @@
+/* RESET PLUGINS */
+
+
+/* ESTILO DEFAULT PARA AS PAGINAS */
+
+body {
+    font-family: $regular, sans-serif;
+}
+
+
+/* ESTILO DEFAULT PARA AS HEADING TAGS */
+
+.h {}
+
+
+/* ESTILO DEFAULT PARA OS PARAGRAFOS */
+
+p {}
+
+
+/* ESTILO DEFAULT PARA OS BOTOES */
+
+.btn {}
+
+
+/* MEDIA QUERIES */
+
+
+/*
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .grid-container{
+        width: 1200px;
+    }
+}
+*/
+
+@media #{$full} {}
+
+@media #{$desktop} {}
+
+@media #{$ultrabook} {}
+
+@media #{$maxTablet} {}
+
+@media #{$tablet} {}
+
+@media #{$mobile} {}
